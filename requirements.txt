@@ -1,8 +1,12 @@
-elasticsearch
-pandas
-numpy
+fastapi
+uvicorn
 sentence-transformers
 faiss-cpu
+numpy
+pandas
+elasticsearch
+streamlit
+matplotlib
+pytest
 torch
-transformers
 scikit-learn

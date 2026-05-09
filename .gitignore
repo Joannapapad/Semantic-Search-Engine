@@ -1,7 +1,9 @@
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.npy
-*.faiss
-.env
 venv/
+__pycache__/
+*.pyc
+
+data/embeddings.npy
+data/query_embeddings.npy
+data/faiss.index
+
+.env
