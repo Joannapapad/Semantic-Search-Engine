@@ -19,5 +19,6 @@ def semantic(query: str, k: int = 20):
     return semantic_search(query, k)
 
 @router.get("/hybrid-search")
-def hybrid(query: str, k: int = 20):
+def hybrid_search_endpoint(query: str, k: int = 10):
+
     return hybrid_search(query, k)
